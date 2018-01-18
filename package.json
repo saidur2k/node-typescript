@@ -1,0 +1,21 @@
+{
+  "name": "node-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node ./lib/server.ts",
+    "start": "node ./dist/server.js",
+    "prod": "yarn build && yarn start"
+  },
+  "keywords": [],
+  "author": "Saidur Rahman <saidur2k@hotmail.com> (http://rudias.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "4.11.0",
+    "body-parser": "1.18.2",
+    "express": "4.16.2",
+    "typescript": "2.6.2"
+  }
+}
